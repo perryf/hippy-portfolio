@@ -1,7 +1,5 @@
-/* 
-
-Style Hints: 
-
+/*
+Style Hints:
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
 	 Font Color = black
@@ -17,3 +15,71 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+body {
+  font-size: 14px;
+  font-family: "Times New Roman", serif;
+  color: black;
+  background: url("../wood_background.jpeg");
+}
+
+h1 {
+  padding: 10px;
+  font-size: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: cursive, Helvetica, sans-serif;
+  margin: 0 12px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+p {
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  background: #EE7871;
+}
+
+footer {
+  background: #EE7871;
+  margin: 0;
+  height: 50px;
+}
+
+main h2 {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.about {
+  margin-top: 10px
+}
+
+.page {
+  width: 720px;
+  margin: 0 auto;
+  background: white;
+}
+
+.copyright {
+  color: white;
+  padding-top: 10px;
+  text-align: right;
+}
